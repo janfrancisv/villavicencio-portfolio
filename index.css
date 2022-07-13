@@ -1,0 +1,94 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#navbar{
+	background-color: #59D2FE;
+}
+
+/*.aboutme1{
+	color: lightgray;
+}*/
+
+.nav-link{
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-size: 1.5rem;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.fuzzyfont{
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-weight: bold;
+}
+
+
+#bg-img{
+	background-image: url(./images/bgportfolio2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-attachment: fixed;
+}
+
+.pages{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.monts{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 2rem;
+	color: black;
+}
+
+.monts2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.caveat{
+	font-family: 'Caveat', cursive;
+	font-size: 28px;
+}
+
+/*#aboutme{
+	background-color: #44E5E7;
+}*/
+
+/*.gmapframe{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 50%;
+}*/
+
+/*.gmap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+}*/
+
+#gmap{
+	width: 100%;
+	height: 100%;
+}
+
+#contact{
+	margin-bottom: 5rem;
+}
+
+.clinks{
+	text-decoration: none;
+	font-size: 40px;
+}
